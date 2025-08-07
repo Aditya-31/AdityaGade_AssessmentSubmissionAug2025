@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Account.Last_High_Value_Opportunity__c</members>
+		<members>Opportunity.Closed_Won_Reason__c</members>
+		<members>Opportunity.High_Value_Processed_Date__c</members>
+		<members>Opportunity.High_Value_Processed__c</members>
+		<members>Opportunity_Win_Processing_Error__c.Opportunity__c</members>
+		<members>Opportunity_Win_Processing_Error__c.Error_Message__c</members>
+		<members>Opportunity_Win_Processing_Error__c.Is_Active__c</members>
+		<name>CustomField</name> <!--pending some field check once-->
+	</types>
+    <types>
+		<members>Opportunity_Build_Permission_Set</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>OpportunityWinProcessor</members>
+		<members>OpportunityTriggerHandler</members>
+		<members>OpportunityWinProcessorTest</members>
+		<members>OpportunityTriggerHandlerTest</members>
+		<members>OpportunityRetryController</members>
+		<members>OpportunityRetryControllerTest</members>
+		<!--<members>TriggerControl</members>-->
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>OpportunityTrigger</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>highValueOpportunityDashboard</members>
+		<members>processingErrorList</members>
+		<members>closedWonOpportunityList</members><!--check if wire working properly-->
+		<name>LightningComponentBundle</name>
+	</types>
+	<version>60.0</version>
+</Package>
